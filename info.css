@@ -1,0 +1,32 @@
+.info_eu{
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    margin-top: 520px;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    padding: 0;
+    box-sizing: border-box;
+    border-top: 1px solid lightgray;
+}
+
+.info_eu div{
+    margin-left: 15px;
+    padding: 15px;
+    text-align: center;
+    margin-left: 270px;
+}
+
+.logo_footer_section{
+    margin-top: 15px;
+}
+
+.logo_footer{
+    width: 40px;
+}
+
+.logo_footer:hover{
+    opacity: 0.8;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}

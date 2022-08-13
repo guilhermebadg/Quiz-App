@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Quiz App | guilhermebadg</title>
+    <link rel="stylesheet" href="quiz.css">
+    <link rel="stylesheet" href="info.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="start_btn"><button>Começar Quiz</button></div>
+
+    <div class="info_eu">
+        <div>
+        <p>Projeto desenvolvido por</p>
+        <h1>Guilherme Barbosa</h1>
+        </div>
+
+        <div class="logo_footer_section">
+            <a target="_blank" href="https://www.linkedin.com/in/guilhermebadg/"> <img class="logo_footer" src="imagens/linkedin.png" alt=""></a>
+            <a target="_blank" href="https://github.com/guilhermebadg"> <img class="logo_footer" src="imagens/github.png" alt=""></a>
+
+        </div>
+    </div>
+
+
+    <div class="info_box">
+        <div class="info-title"><span>Algumas regras do nosso quiz</span></div>
+        <div class="info-list">
+            <div class="info">1. Você terá apenas <span>15 segundos</span> para cada questão.</div>
+            <div class="info">2. Ao selecionar a sua resposta, você não pode selecionar outra novamente.</div>
+            <div class="info">3. Você não pode selecionar nenhuma opção quando o tempo acabar.</div>
+            <div class="info">4. Você não pode sair do quiz enquanto estiver jogando.</div>
+            <div class="info">5. Você receberá pontos conforme as suas respostas corretas.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Encerrar</button>
+            <button class="restart">Continuar</button>
+        </div>
+    </div>
+
+    <div class="quiz_box">
+        <header>
+            <div class="title">Quiz App</div>
+            <div class="timer">
+                <div class="time_left_txt">Tempo</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+          
+            </div>
+            <div class="option_list">
+              
+            </div>
+        </section>
+    
+        <footer>
+            <div class="total_que">
+              
+            </div>
+            <button class="next_btn">Próxima questão</button>
+        </footer>
+    </div>
+  
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">Você completou o quiz!</div>
+        <div class="score_text">
+            
+        </div>
+        <div class="buttons">
+            <button class="restart">Replay Quiz</button>
+            <button class="quit">Quit Quiz</button>
+        </div>
+    </div>
+   
+    <script src="quizJson.js"></script>
+    <script src="quiz.js"></script>
+</body>
+</html>
+</html>
